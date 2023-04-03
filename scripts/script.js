@@ -50,7 +50,7 @@ for (let i = 0; i < 20; i++) {
       <div class="informations">
         <h2>${nom}</h2>
         <div class="notes">
-          <span class="etoiles">${notationEnEtoiles(note)}</span>
+          <span class="etoiles">${notationEnEtoiles(note)} ${note} étoiles </span>
         </div>
         <p>${type}</p>
         <p>${dates}</p>
