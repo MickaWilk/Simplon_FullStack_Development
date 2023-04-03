@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Exemple de page HTML avec des cartes d'endroits</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Airbnb avec des cartes</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="grille" id="cartes"></div>
-  <script src="script.js"></script>
+  <div class="header">
+    <div class="logo">Airbnb</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Rechercher...">
+      <button>Rechercher</button>
+    </div>
+    <div class="nav-links">
+      <a href="#">Devenir hôte</a>
+      <a href="#">Aide</a>
+      <a href="#">Inscription</a>
+      <a href="#">Connexion</a>
+    </div>
+    <div class="become-host">Devenir hôte</div>
+  </div>
+  <div class="carte-container" id="cartes"></div>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/searchbar.js"></script>
 </body>
 </html>
