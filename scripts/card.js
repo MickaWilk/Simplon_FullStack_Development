@@ -11,11 +11,6 @@ function notationEnEtoiles(note) {
 }
 
 function randomDate() {
-  Date = "30/01/2023 - 15/02/2023"
-  return Date;
-}
-
-function randomDate() {
   // Générer une date aléatoire en 2023
   const dateDebut = new Date('2023-01-01');
   const dateFin = new Date('2023-12-31');
