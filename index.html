@@ -5,26 +5,24 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="header">
-      <div class="logo">Mikebnb</div>
-      <div class="search-bar">
-        <input type="text" placeholder="Rechercher...">
-        <button>Rechercher</button>
-      </div>
-      <div class="nav-links">
-        <a href="#">Devenir hôte</a>
-        <a href="#">Aide</a>
-        <a href="#">Inscription</a>
-        <a href="#">Connexion</a>
-      </div>
-      <div class="become-host">Devenir hôte</div>
+  <div class="header">
+    <div class="logo">Mikebnb</div>
+    <div class="search-bar">
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Rechercher produit...">
+        <button type="submit">Rechercher</button>
+      </form>
     </div>
-  </header>
-
+    <div class="nav-links">
+      <a href="#">Devenir hôte</a>
+      <a href="#">Aide</a>
+      <a href="#">Inscription</a>
+      <a href="#">Connexion</a>
+    </div>
+    <div class="become-host">Devenir hôte</div>
+  </div>
+  <div id="results-container"></div>
   <div class="carte-container" id="cartes"></div>
-
-
   <footer>
     <div class="footer">
       <ul>
@@ -61,8 +59,8 @@
         </div>
       </div>
     </div>
-
   </footer>
   <script src="scripts/card.js"></script>
+  <script src="scripts/ajax.js"></script>
 </body>
 </html>
